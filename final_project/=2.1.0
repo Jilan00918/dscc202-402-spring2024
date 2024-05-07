@@ -1,17 +1,2 @@
-Collecting pyspark
-  Downloading pyspark-3.5.1.tar.gz (317.0 MB)
-     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 317.0/317.0 MB 4.1 MB/s eta 0:00:00
-  Preparing metadata (setup.py): started
-  Preparing metadata (setup.py): finished with status 'done'
-Collecting py4j==0.10.9.7 (from pyspark)
-  Downloading py4j-0.10.9.7-py2.py3-none-any.whl.metadata (1.5 kB)
-Downloading py4j-0.10.9.7-py2.py3-none-any.whl (200 kB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 200.5/200.5 kB 16.9 MB/s eta 0:00:00
-Building wheels for collected packages: pyspark
-  Building wheel for pyspark (setup.py): started
-  Building wheel for pyspark (setup.py): finished with status 'done'
-  Created wheel for pyspark: filename=pyspark-3.5.1-py2.py3-none-any.whl size=317488511 sha256=a6699aee2dd95a962b0cc0290a4072ee2f4dfb2802f6ae041d4b12d8ffc4a770
-  Stored in directory: /root/.cache/pip/wheels/92/09/11/aa01d01a7f005fda8a66ad71d2be7f8aa341bddafb27eee3c7
-Successfully built pyspark
-Installing collected packages: py4j, pyspark
-Successfully installed py4j-0.10.9.7 pyspark-3.5.1
+Requirement already satisfied: pyspark in /local_disk0/.ephemeral_nfs/envs/pythonEnv-48753333-42ce-494a-9e47-07c21627c2e3/lib/python3.9/site-packages (3.5.1)
+Requirement already satisfied: py4j==0.10.9.7 in /local_disk0/.ephemeral_nfs/envs/pythonEnv-48753333-42ce-494a-9e47-07c21627c2e3/lib/python3.9/site-packages (from pyspark) (0.10.9.7)
